@@ -48,3 +48,31 @@ STRUKTUR FILE
 1️⃣ Clone Repository
   git clone https://github.com/username/nama-repo.git
   cd nama-repo
+  
+2️⃣ Install Dependency
+  pip install pillow matplotlib numpy
+  
+3️⃣ Jalankan Program
+  python main.py
+  
+🔑 Akun Default Login
+  Username : kasir
+  Password : kasir123
+
+🏢 Konfigurasi Perusahaan & Email
+Edit file config.json:
+{
+  "company": {
+    "name": "PT PYRAMINDO SANTANA PUTRA",
+    "address": "Jl. Raya Industri No. 123",
+    "phone": "+62-21-12345678",
+    "email": "info@company.co.id"
+  },
+  "email": {
+    "smtp_server": "smtp.gmail.com",
+    "smtp_port": 587,
+    "sender_email": "email@gmail.com",
+    "sender_password": "app_password"
+  }
+}
+
