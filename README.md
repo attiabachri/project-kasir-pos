@@ -33,3 +33,18 @@ Cocok untuk UKM, toko, gudang, atau pabrik yang butuh aplikasi kasir offline.
 -Matplotlib – Grafik laporan
 -SMTP (Email) – Kirim invoice
 -OS / Subprocess – Printing lintas OS
+
+STRUKTUR FILE
+├── main.py / app.py
+├── users.json          # Data user / kasir
+├── products.json       # Data produk
+├── customers.json      # Data pelanggan
+├── transactions.json   # Riwayat transaksi
+├── laporan.json        # Data laporan
+├── config.json         # Konfigurasi perusahaan & email
+└── README.md
+
+⚙️ Cara Menjalankan Aplikasi
+1️⃣ Clone Repository
+  git clone https://github.com/username/nama-repo.git
+  cd nama-repo
